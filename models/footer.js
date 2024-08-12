@@ -11,7 +11,7 @@ const Footer = sequelize.define(
       autoIncrement: true
     },
     titleFooter: {
-      type: DataTypes.STRING,
+      type: DataTypes.STRING(500),
       allowNull : true
     },
     deletedAt: {

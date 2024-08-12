@@ -6,15 +6,15 @@ const Formulario = sequelize.define(
   "formularios",
   {
     empresa: {
-      type: DataTypes.STRING,
+      type: DataTypes.STRING(500),
       allowNull: true,
     },
     rubroEmpresa: {
-      type: DataTypes.STRING,
+      type: DataTypes.STRING(500),
       allowNull: true,
     },
     mensaje: {
-      type: DataTypes.STRING,
+      type: DataTypes.STRING(500),
       allowNull: true,
     },
     userId: {

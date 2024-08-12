@@ -6,7 +6,7 @@ const SeccionDesplegable = sequelize.define(
     "seccionDesplegable",
     {
         nombreSeccionDesplegable: {
-            type: DataTypes.STRING,
+            type: DataTypes.STRING(500),
             allowNull: true,
         },
         subCategoriaId: {

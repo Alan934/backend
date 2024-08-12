@@ -6,11 +6,11 @@ const Tecnologia = sequelize.define(
   "tecnologia",
   {
     nombreTecnologia: {
-      type: DataTypes.STRING,
+      type: DataTypes.STRING(500),
       allowNull: true,
     },
     urlImagenTecnologia: {
-      type: DataTypes.STRING,
+      type: DataTypes.STRING(500),
       allowNull: true,
     },
     seccionTecnologiaId: {

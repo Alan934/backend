@@ -23,7 +23,6 @@
     "express-validator": "^7.1.0",
     "jsonwebtoken": "^9.0.2",
     "mysql2": "^3.10.2",
-    "rts": "file:",
     "sequelize": "^6.37.3",
     "swagger-jsdoc": "^6.2.8",
     "swagger-ui-express": "^4.6.3",

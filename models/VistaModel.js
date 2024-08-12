@@ -11,11 +11,11 @@ const Vista = sequelize.define(
       autoIncrement: true
     },
     nombreVista: {
-      type: DataTypes.STRING,
+      type: DataTypes.STRING(500),
       allowNull: true,
     },
     iconUrlVista: {
-      type: DataTypes.STRING,
+      type: DataTypes.STRING(500),
       allowNull: true,
     },
     deletedAt: {

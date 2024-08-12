@@ -6,7 +6,7 @@ const Categoria = sequelize.define(
   "categorias",
   {
     nombreCategoria: {
-      type: DataTypes.STRING,
+      type: DataTypes.STRING(500),
       allowNull: true,
     },
     vistaId: {

@@ -6,11 +6,11 @@ const SeccionGeneral = sequelize.define(
   "seccionGeneral",
   {
     tituloSeccionGeneral: {
-      type: DataTypes.STRING,
+      type: DataTypes.STRING(500),
       allowNull: true,
     },
     subTituloSeccionGeneral: {
-        type: DataTypes.STRING,
+        type: DataTypes.STRING(500),
         allowNull: true,
       },
     subCategoriaId: {

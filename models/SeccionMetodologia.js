@@ -6,11 +6,11 @@ const SeccionMetodologia = sequelize.define(
   "SeccionMetodologia",
   {
     tituloSeccionMetodologia: {
-      type: DataTypes.STRING,
+      type: DataTypes.STRING(500),
       allowNull: true,
     },
     subTituloSeccionMetodologia: {
-        type: DataTypes.STRING,
+        type: DataTypes.STRING(500),
         allowNull: true,
       },
     subCategoriaId: {

@@ -5,7 +5,7 @@ const User = sequelize.define(
   "users",
   {
     name: {
-      type: DataTypes.STRING,
+      type: DataTypes.STRING(500),
       allowNull: false,
     },
     age: {
@@ -13,12 +13,12 @@ const User = sequelize.define(
       allowNull : true, 
     },
     email: {
-      type: DataTypes.STRING,
+      type: DataTypes.STRING(500),
       allowNull: true,
       unique: true,
     },
     password: {
-      type: DataTypes.STRING,
+      type: DataTypes.STRING(500),
       allowNull: true, 
     },
     role: {

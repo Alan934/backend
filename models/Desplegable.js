@@ -6,11 +6,11 @@ const Desplegable = sequelize.define(
   "desplegable",
   {
     tituloDesplegable: {
-      type: DataTypes.STRING,
+      type: DataTypes.STRING(500),
       allowNull: true,
     },
     textoDesplegable: {
-      type: DataTypes.STRING,
+      type: DataTypes.STRING(500),
       allowNull: true,
     },
     seccionDesplegableId: {

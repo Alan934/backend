@@ -6,11 +6,11 @@ const SectionText = sequelize.define(
     "sectionText",
     {
         titleSectionText: {
-            type: DataTypes.STRING,
+            type: DataTypes.STRING(500),
             allowNull: true,
         },
         subtitleSectionText: {
-            type: DataTypes.STRING,
+            type: DataTypes.STRING(500),
             allowNull: true,
         },
         subCategoriaId: {

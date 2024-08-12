@@ -13,15 +13,15 @@ const Item = sequelize.define(
   "item",
   {
     tituloItem: {
-      type: DataTypes.STRING,
+      type: DataTypes.STRING(500),
       allowNull: true,
     },
     subtituloItem: {
-      type: DataTypes.STRING,
+      type: DataTypes.STRING(500),
       allowNull: true,
     },
     urlIconItem: {
-      type: DataTypes.STRING,
+      type: DataTypes.STRING(500),
       allowNull: true,
     },
     id_banner: {

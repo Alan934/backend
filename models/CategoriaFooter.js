@@ -11,7 +11,7 @@ const CategoriaFooter = sequelize.define(
         autoIncrement: true
     },
     titleCategoriaFooter: {
-        type: DataTypes.STRING,
+        type: DataTypes.STRING(500),
         allowNull : true
     },
     id_footer: {

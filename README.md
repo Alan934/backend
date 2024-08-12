@@ -56,10 +56,61 @@ Lo que hace única a RTS es su capacidad de personalización total. No necesitas
 </div>
 <br>
 
+## 📄 Diagrama UML
+
+<div align="center">
+  <img src="https://res.cloudinary.com/de9ojxknm/image/upload/v1723148767/Diagrama%20de%20Clases/zix3blku3qfabh2nk27r.jpg"/>
+  <a href="https://res.cloudinary.com/de9ojxknm/image/upload/v1723148767/Diagrama%20de%20Clases/zix3blku3qfabh2nk27r.jpg">Haz clic aquí para ver la imagen con mas detalle</a>
+  
+</div>
+
+## 🧭 Guia rapida para ejecutar el proyecto en local
+
+Paso 1: Instalar Node.js y npm
+
+1. Descargar Node.js:
+
+   - Ve a la página oficial de Node.js en https://nodejs.org/.
+   - Descarga la versión recomendada (LTS) para tu sistema operativo.
+
+2. Instalar Node.js:
+   - Ejecuta el instalador descargado y sigue las instrucciones para completar la instalación.
+3. Verificar la instalación:
+
+   - Abre una terminal (o línea de comandos) y ejecuta los comandos node -v y npm -v para verificar que Node.js y npm se han instalado correctamente. Deberías ver la versión de Node.js y npm respectivamente.
+
+Paso 2: Configurar tu proyecto de Node.js
+
+1.  Clonar o copiar el proyecto:
+
+    - Si estás clonando un repositorio, usa el comando git clone "URL-del-repositorio".
+
+    - Si ya tienes el proyecto en tu máquina, navega a la carpeta del proyecto usando el comando cd.
+
+2. Instalar las dependencias:
+
+   - Dentro de la carpeta del proyecto, ejecuta el comando npm install para instalar todas las dependencias necesarias que están listadas en el archivo package.json.
+
+Paso 3: Ejecutar el proyecto
+
+1.  Ejecutar el proyecto:
+
+    - Abre una nueva consola y simplemente ejecuta "npm run dev".
+    - Este comando ejecutará el script definido bajo el nombre dev en el archivo package.json. 
+    
+Nota Adicional
+
+1.  Variables de entorno:
+
+    - Asegúrate de que todas las variables de entorno necesarias estén configuradas. Algunas aplicaciones requieren un archivo .env con configuraciones específicas. Verifica si hay un archivo .env.example o documentación sobre cómo configurar las variables de entorno.
+¡Y eso es todo! Con estos pasos, deberías poder ejecutar tu proyecto de Node.js en tu entorno local. 
+
+
 ## 👨‍💻 Equipo ( GRUPO 2 RTS )
 
-<table>
+<table align="center">
   <tr>
+    <!-- Primera fila con 4 imágenes -->
     <td>
       <div align="center">
         <a href="https://github.com/Raul1978x" target="_blank" rel="author">
@@ -120,6 +171,9 @@ Lo que hace única a RTS es su capacidad de personalización total. No necesitas
         </a>
       </div>
     </td>
+  </tr>
+  <tr>
+    <!-- Segunda fila con 3 imágenes -->
     <td>
       <div align="center">
         <a href="https://github.com/JuanmaVD" target="_blank" rel="author">
@@ -135,8 +189,7 @@ Lo que hace única a RTS es su capacidad de personalización total. No necesitas
         </a>
       </div>
     </td>
-  </tr>
-  <td>
+    <td>
       <div align="center">
         <a href="https://github.com/Jusnock" target="_blank" rel="author">
           <img width="120" height="170" src="https://res.cloudinary.com/de9ojxknm/image/upload/v1723059351/Fotos%20Equipo/ivnxdispky5zwujn22rm.jpg"/>
@@ -151,8 +204,8 @@ Lo que hace única a RTS es su capacidad de personalización total. No necesitas
         </a>
       </div>
     </td>
-   <td>
-      <div align="center">
+    <td>
+      <div align="center" >
         <a href="https://github.com/Alan934" target="_blank" rel="author">
           <img width="120" height="170" src="https://res.cloudinary.com/de9ojxknm/image/upload/v1723058043/Fotos%20Equipo/nj1z7yvlhuktqwabkjmi.jpg"/>
         </a>
@@ -166,5 +219,9 @@ Lo que hace única a RTS es su capacidad de personalización total. No necesitas
         </a>
       </div>
     </td>
+  </tr>
 </table>
+
+
 <br>
+

@@ -21,16 +21,18 @@ const getItem = async (req, res) => {
 }
 
 const getItems = async (req, res) => {
-    try {
-        const users = await User.findAll({
-            attributes: { exclude: ['age', 'password'] }
-        });
-        res.status(200).json(users);
-    } catch (error) {
-        console.error('Error al obtener los usuarios:', error);
-        res.status(500).json({ error: 'Error interno del servidor' });
-    }
+  try {
+      const users = await User.findAll({
+          attributes: { exclude: ['age', 'password'] },
+          paranoid: false 
+      });
+      res.status(200).json(users);
+  } catch (error) {
+      console.error('Error al obtener los usuarios:', error);
+      res.status(500).json({ error: 'Error interno del servidor' });
+  }
 }
+
 
 const deleteItem = async (req, res) => {
     try {

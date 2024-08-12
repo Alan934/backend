@@ -20,8 +20,7 @@ const dbConnectMySQL = async () => {
     console.log("MySQL connected");
 
     await sequelize.sync({ alter: true }); // Usar { force: true } {alter: true} para eliminar y recrear las tablas
-
-    // console.log('All models were synchronized successfully.');
+    
   } catch (e) {
     console.log('MySQL ERROR connected', e);
   }

@@ -8,7 +8,6 @@ const getItem = async (req, res) => {
         const seccionTecnologia = await SeccionTecnologia.findByPk(id, {
             include:[{
                 model:Tecnologia,
-                include: Item
             }]
         });
         if (seccionTecnologia) {

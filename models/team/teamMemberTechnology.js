@@ -3,11 +3,14 @@ const { DataTypes } = require("sequelize");
 const TeamMember = require("./teamMember");
 
 const TeamMemberTechnology = sequelize.define("teammembertechnologies", {
-        URLIconTechnology: {
+    URLIconTechnology: {
         type: DataTypes.STRING
     },
     technologyName:{
         type: DataTypes.STRING
+    },
+    urlTechnology:{
+      type: DataTypes.STRING
     },
     team_member_id: {
         type: DataTypes.INTEGER,

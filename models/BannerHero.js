@@ -6,15 +6,15 @@ const BannerHero = sequelize.define(
   "bannerhero",
   {
     tituloBannerHero: {
-      type: DataTypes.STRING,
+      type: DataTypes.STRING(500),
       allowNull: true,
     },
     descripcionBannerHero: {
-      type: DataTypes.STRING,
+      type: DataTypes.STRING(500),
       allowNull: true,
     },
     urlImagenBannerHero: {
-      type: DataTypes.STRING,
+      type: DataTypes.STRING(500),
       allowNull: true,
     },
     subCategoriaId: {

@@ -6,11 +6,11 @@ const Card = sequelize.define(
   "cards",
   {
     nombreCard: {
-      type: DataTypes.STRING,
+      type: DataTypes.STRING(500),
       allowNull: true,
     },
     urlImagenCard: {
-      type: DataTypes.STRING,
+      type: DataTypes.STRING(500),
       allowNull: true,
     },
     seccionCardId: {

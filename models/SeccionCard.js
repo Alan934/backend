@@ -6,11 +6,11 @@ const SeccionCard = sequelize.define(
   "seccionCards",
   {
     tituloSeccionCard: {
-      type: DataTypes.STRING,
+      type: DataTypes.STRING(500),
       allowNull: true,
     },
     subTituloSeccionCard: {
-      type: DataTypes.STRING,
+      type: DataTypes.STRING(500),
       allowNull: true,
     },
     seccionGeneralId: {

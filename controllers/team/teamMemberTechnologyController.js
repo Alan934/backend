@@ -37,12 +37,13 @@ const createTeamMemberTechnology = async (req, res) => {
 const updateTeamMemberTechnology = async (req, res) => {
     try {
         const id = req.params.id;
-        const { URLIconTechnology, technologyName, team_member_id } = req.body;
+        const { URLIconTechnology, urlTechnology, technologyName, team_member_id } = req.body;
         const data = await TeamMemberTechnology.findByPk(id);
         if (data) {
             data.URLIconTechnology = URLIconTechnology || data.URLIconTechnology;
             data.technologyName = technologyName || data.technologyName;
             data.team_member_id = team_member_id || data.team_member_id;
+            data.urlTechnology = urlTechnology || data.urlTechnology;
             const updateteamMembertechnology = await data.save();
             res.status(200).json({ message: 'Team Member Technology actualizado correctamente', updateteamMembertechnology});
         } else {
