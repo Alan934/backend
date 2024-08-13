@@ -65,5 +65,5 @@ const createDefaultAdmin = async () => {
 };
 
 // Llama a la función para crear el administrador por defecto
-createDefaultAdmin();
+//createDefaultAdmin();
 
