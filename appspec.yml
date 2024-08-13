@@ -1,0 +1,18 @@
+versión:  0.0 
+sistema operativo:  linux 
+archivos: 
+  -  origen:  / 
+    destino:  /home/ec2-ubuntu/techflare-backend 
+ganchos: 
+  ApplicationStop: 
+    -  ubicación:  scripts/application_stop.sh 
+      tiempo de espera:  300 
+      runas:  ec2-ubuntu 
+  BeforeInstall: 
+    -  ubicación:  scripts/before_install.sh 
+      tiempo de espera:  300 
+      runas:  ec2-ubuntu 
+  ApplicationStart: 
+    -  ubicación:  scripts/application_start.sh 
+      tiempo de espera:  300 
+      runas:  ec2-ubuntu
